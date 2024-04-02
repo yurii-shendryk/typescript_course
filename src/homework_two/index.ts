@@ -3,13 +3,14 @@ import { IArea } from '../homework_one/interfaces/area.interface';
 import { GroupStatusEnum, IGroup } from '../homework_one/interfaces/group.interface';
 import { ILecturer } from '../homework_one/interfaces/lecturer.interface';
 import { ILevel } from '../homework_one/interfaces/level.interface';
+import { ISchool } from '../homework_one/interfaces/school.interface';
 import { IStudent, IStudentGrade, IStudentVisit } from '../homework_one/interfaces/student.interface';
 import { TGroupContructor, TNewGroup } from '../homework_one/types/group.type';
 import { TLecturerContructor, TNewLecturer } from '../homework_one/types/lecturer.type';
 import { TNewLevel } from '../homework_one/types/level.type';
 import { TNewStudent } from '../homework_one/types/student.type';
 
-class School {
+class School implements ISchool {
   // implement 'add area', 'remove area', 'add lecturer', and 'remove lecturer' methods
 
   _areas: IArea[] = [];
