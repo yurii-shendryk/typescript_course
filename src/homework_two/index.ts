@@ -281,7 +281,7 @@ class Student implements IStudent {
     return this._grades;
   }
 
-  set grade(newGrade: IStudentGrade) {
+  set grades(newGrade: IStudentGrade) {
     this._grades.push(newGrade);
   }
 
@@ -289,7 +289,7 @@ class Student implements IStudent {
     return this._visits;
   }
 
-  set visit(newVisit: IStudentVisit) {
+  set visits(newVisit: IStudentVisit) {
     this._visits.push(newVisit);
   }
 
